@@ -1,0 +1,171 @@
+body{
+
+padding: 0;
+margin: 0;
+overflow-x: hidden;
+
+}.Main-Container{
+
+
+	width: 100%;
+	height: auto;
+	
+}.Top-Side{
+	width: 100%;
+	height: 50px;
+	background:#FFFFFF;
+	box-shadow: -1px 2px 8px 0px rgba(0,0,0,0.3);
+	line-height: 50px;
+	text-shadow: 0 1px 6px rgba(0,0,0,0.8);
+	font-weight: bold;
+	font-size: 25px;
+}.Content-Container{
+	width: 100%;
+	min-height: 500px;
+	
+}.left-side{
+	/*box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.6);*/
+}.left-side ul{
+	width: 100%;
+	height: 100%;
+	list-style: none;	
+	margin: 0;
+	padding: 2px;
+}.left-side ul li{
+	display: inline-block;
+	width: 100%;
+	line-height: 50px;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}.left-side ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+}.left-side ul li a:hover{
+	background: #e0fed3;
+}
+.right-side{
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+/*=-===============================================================================*/
+
+.Check-Prime{
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	background: #FFFFFF;
+	transform: translate(-50%,-50%);
+	top: 30%;
+	left: 50%;
+	box-shadow: 0px -1px 5px 2px rgba(0,0,0,0.2);
+	border-radius: .223rem;
+	visibility: hidden;
+	opacity: 0;
+	z-index: -2;
+	transition:  all .23s ease-in-out;	
+	padding: 5px 10px;
+
+}.Check-Prime.active{
+	visibility: visible;
+	opacity: 1;
+	z-index: 1;
+	transition:  all .43s ease-in;
+	top: 45%;
+}
+
+
+.Check-Disivility{
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	background: #FFFFFF;
+	transform: translate(-50%,-50%);
+	top: 30%;
+	left: 50%;
+	box-shadow: 0px -1px 5px 2px rgba(0,0,0,0.2);
+	border-radius: .223rem;
+	visibility: hidden;
+	opacity: 0;
+	z-index: -2;
+	transition:  all .23s ease-in-out;	
+
+}.Check-Disivility.active{
+	visibility: visible;
+	opacity: 1;
+	z-index: 1;
+	transition:  all .43s ease-in;
+	top: 45%;
+}
+
+.Find-Divisors{
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	background: #FFFFFF;
+	transform: translate(-50%,-50%);
+	top: 30%;
+	left: 50%;
+	box-shadow: 0px -1px 5px 2px rgba(0,0,0,0.2);
+	border-radius: .223rem;
+	visibility: hidden;
+	opacity: 0;
+	z-index: -2;
+	transition:  all .23s ease-in-out;	
+
+}.Find-Divisors.active{
+	visibility: visible;
+	opacity: 1;
+	z-index: 1;
+	transition:  all .43s ease-in;
+	top: 45%;
+}
+
+.Find-Unit-Place{
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	background: #FFFFFF;
+	transform: translate(-50%,-50%);
+	top: 30%;
+	left: 50%;
+	box-shadow: 0px -1px 5px 2px rgba(0,0,0,0.2);
+	border-radius: .223rem;
+	visibility: hidden;
+	opacity: 0;
+	z-index: -2;
+	transition:  all .23s ease-in-out;	
+
+}.Find-Unit-Place.active{
+	visibility: visible;
+	opacity: 1;
+	z-index: 1;
+	transition:  all .43s ease-in;
+	top: 45%;
+}
+
+.Find-Prime-Factors{
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	background: #FFFFFF;
+	transform: translate(-50%,-50%);
+	top: 30%;
+	left: 50%;
+	box-shadow: 0px -1px 5px 2px rgba(0,0,0,0.2);
+	border-radius: .223rem;
+	visibility: hidden;
+	opacity: 0;
+	z-index: -2;
+	transition:  all .23s ease-in-out;	
+
+}.Find-Prime-Factors.active{
+	visibility: visible;
+	opacity: 1;
+	z-index: 1;
+	transition:  all .43s ease-in;
+	top: 45%;
+}
